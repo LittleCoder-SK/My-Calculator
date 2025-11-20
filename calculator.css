@@ -11,6 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #030113;
+  
 }
 
 .sub-cal{
@@ -18,27 +20,45 @@
     height: 450px;
     background-color: #23957E;
     padding: 10px;
+      border-radius: 5px;
 }
-.sub-cal .input-feild{
+.sub-cal .input-text{
     width: 100%;
 }
-.input-feild textarea{
-    width: 250px;
-    height: 90px;
-    padding: 10px;
+.input-text textarea{
+    width: 275px;
+    height: 80px;
+    padding: 20px 10px 10px 10px;
+    outline: none;
+    resize: none;
     text-align: right;
+    font-size: 28px;
+    font-weight: 500;
+    
+    border-radius: 4px;
 }
+/* .input-text textarea::placeholder{
+    font-size: 28px;
+    font-weight: 500;
+} */
+
 .btn-groups{
     width: 100%;
-    height: 100%;
 }
 
 .calcu button{
-    width: 45px;
-    font-size: 16px;
+    width: 55px;
+    height: 55px;
+    font-size: 20px;
     font-weight: 500;
     padding: 13px;
-    margin: 10px 10px 10px 0;
-    align-content: space-between;
+    margin: 8px 15px 8px 0;
     display: inline-flex;
+    border-radius: 50%;
+    outline: none;
+    background-color: #da4c68;
+    color: #F0FFFF;
+    border: 1px solid #836186;
+    align-items: center;
+    justify-content: center;
 }
